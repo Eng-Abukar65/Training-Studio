@@ -1,0 +1,1090 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Anybody", sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: min(90%, 1120px);
+    margin-inline: auto;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    height: 4.5rem;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+.desktop-menu {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.menus-links {
+    display: flex;
+    gap: 50px;
+}
+
+.menus-links li {
+    list-style: none;
+}
+
+.menus-links li a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #2B2B2B;
+
+}
+
+.menus-links li a:hover {
+    color: rgb(237, 86, 59);
+    transition: 1s;
+}
+
+.desktop-menu h1 {
+    font-size: 1.5625rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 80px;
+    font-size: 32px;
+}
+
+.desktop-menu h1 span {
+    color: rgb(237, 86, 59);
+
+}
+
+.btn {
+    padding: 10px;
+    background-color: rgb(237, 86, 59);
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: red;
+
+}
+
+.menus-links li:first-child a {
+    color: red;
+}
+
+
+.hamburger {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+
+/*end menu */
+
+/* start hero section */
+
+
+.hero {
+    height: calc(100vh - 4.5rem);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("https://as1.ftcdn.net/v2/jpg/00/93/55/88/1000_F_93558844_zsJSg3nGtgXX0HSToxWJeBjEt1OIyTHo.jpg") bottom / cover no-repeat;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.inside-hero {
+    text-align: center;
+
+}
+
+.inside-hero p {
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.inside-hero h1 {
+    font-size: 96px;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.inside-hero h1 span,
+.container .Choose-Program h1 span,
+.begin-today-contact h2 span,
+.Our-Classes h1 span {
+    color: rgb(237, 86, 59);
+
+
+}
+
+
+.inside-hero .btn {
+    padding: 15px 65px;
+    text-transform: uppercase;
+
+}
+
+.Choose-Program {
+    margin-top: 10rem;
+}
+
+.container .Choose-Program {
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.container .Choose-Program p {
+    margin-top: 10px;
+}
+
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icon-one {
+    background-color: rgb(237, 86, 59);
+    width: 100px;
+    padding: 20px 20px;
+    font-size: 3rem;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.Choose-Program h1 {
+    text-transform: uppercase;
+
+}
+
+.information h4 {
+    font-size: 19px;
+    margin-bottom: 7px;
+    letter-spacing: 0.25px;
+    font-weight: 600;
+
+}
+
+.information p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #7a7a7a;
+}
+
+.information .text-button {
+    margin-top: 7px;
+    display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #ed563b;
+    font-weight: 500;
+    text-decoration: none !important;
+
+
+
+}
+
+.All-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 6rem;
+
+}
+
+.begin-today {
+    height: 438px;
+    background: linear-gradient(rgba(41, 42, 42, 0.9), rgba(50, 50, 50, 0.5)), url("https://img.freepik.com/free-photo/dumbbells-set-against-dark-background-floor_60438-3557.jpg?t=st=1728912917~exp=1728916517~hmac=fdd5b3126aa3978168b972082f9e913fd895311570bb6be36cbcc47c7bf78e47&w=1380") center /cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 2rem;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.begin-today-contact a.btn {
+    font-size: 15px;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: .3s;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.begin-today-contact h2 {
+    align-items: center;
+    text-align: center;
+    font-size: 3.125rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.begin-today-contact p {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.begin-today-contact h4 {
+    text-align: center;
+    padding: 5px;
+}
+
+
+.Our-Classes {
+    margin-top: 140px;
+    align-items: center;
+    text-align: center;
+}
+
+.Our-Classes h1 {
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.Our-Classes p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #7a7a7a;
+}
+
+
+
+
+.main-Our-Classes-1 {
+    margin-top: 100px;
+    gap: 3rem;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.main-Our-Classes {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+.frist-Training {
+    margin-top: 20px;
+    color: #ed563b;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 30px 30px;
+    display: inline-block;
+    background-color: #ffff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    transition: all 0.3s;
+    display: flex;
+    gap: 20px;
+}
+
+
+.frist-Training-2 {
+    margin-top: 20px;
+    color: #ed563b;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 30px 30px;
+    display: inline-block;
+    background-color: #ffff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    transition: all 0.3s;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+.frist-Training-icon {
+    font-size: 30px;
+}
+
+.frist-Training-icon-2 {
+    font-size: 30px;
+}
+
+.qoraal .fist-tranning {
+
+    text-decoration: none;
+    font-size: 19px;
+    color: #ed563b;
+    align-items: center;
+    text-align: center;
+}
+
+
+.qoraal .fist-tranning-2 {
+
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+
+
+.main-Our-Classes .btn {
+    width: 100%;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    font-size: 19px;
+    margin-top: 15px;
+}
+
+.sawir img {
+    margin-top: 20px;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+
+.sawir h4 {
+    font-size: 23px;
+    font-weight: 700;
+    color: #232d39;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.sawir p {
+    font-size: 14px;
+    color: #7a7a7a;
+    margin-bottom: 28px;
+}
+
+.sawir .btn {
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 3s;
+    font-weight: 400;
+}
+
+
+.img-bacground {
+    background: url("https://templatemo.com/templates/templatemo_548_training_studio/assets/images/schedule-bg.jpg") center /cover no-repeat;
+    height: 950.5px;
+    width: 100%;
+
+
+}
+
+
+
+
+
+
+.img-bacground-text {
+    margin-top: 140px;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.img-bacground-text h1 {
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding-bottom: 2rem;
+}
+
+.img-bacground-text h1 span {
+    color: #ed563b;
+}
+
+.img-bacground-text p {
+    font-size: 14px;
+    line-height: 25px;
+    color: white;
+}
+
+
+
+
+.schedule-container {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 900px;
+    margin-top: 90px;
+
+
+
+
+}
+
+.schedule-container .schedule-table {
+    justify-content: center;
+}
+
+
+
+.days {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: white;
+
+}
+
+.days span {
+    color: #fff;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.days span:first-child {
+    color: #e74c3c;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+
+}
+
+.schedule-table td {
+    padding: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
+.schedule-table td:first-child {
+    text-align: center;
+}
+
+
+.schedule-table tbody tr td {
+    border-right: 1px solid rgb(255, 255, 255);
+    height: 100px;
+    font-size: 13px;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+
+
+.schedule-container {
+    margin: 0 auto;
+}
+
+
+.schedule-table {
+    margin: 0 auto;
+}
+
+.box-one {
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+.card {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 400px;
+    text-align: center;
+    height: 570px;
+}
+
+.card-img {
+    width: 80%;
+    height: auto;
+    border-bottom: 5px solid #f5f5f5;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-role {
+    color: #e74c3c;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-name {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.card-description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.card-social {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-social a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.card-social a:hover {
+    color: #e74c3c;
+}
+
+
+
+.location {
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    border-width: 0px;
+}
+
+.location-and-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+
+}
+
+.location iframe {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.bacground-sawir {
+    background: url("https://templatemo.com/templates/templatemo_548_training_studio/assets/images/contact-bg.jpg") center/ cover no-repeat;
+    width: 100%;
+    padding: 80px;
+
+}
+
+.form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+
+}
+
+.form #name,
+.form #email {
+    width: 100%;
+    color: #7a7a7a;
+    border: 1px solid #ddd;
+    background-color: #ffff;
+    height: 40px;
+    outline: none;
+    line-height: 40px;
+    padding: 0px 10px;
+    appearance: none;
+    margin-bottom: 30px;
+}
+
+
+
+.name-email {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+
+}
+
+
+#subject {
+    width: 100%;
+    width: 100%;
+    color: #7a7a7a;
+    border: 1px solid #ddd;
+    background-color: #ffff;
+    height: 40px;
+    outline: none;
+    line-height: 40px;
+    padding: 0px 10px;
+    appearance: none;
+    margin-bottom: 30px;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+    color: #7a7a7a;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    background-color: #ffff;
+    outline: none;
+    width: 100%;
+    line-height: 40px;
+    padding: 0px 10px;
+    appearance: none;
+    margin-bottom: 30px;
+}
+
+
+
+footer p {
+    text-align: center;
+    color: #232d39;
+    font-size: 13px;
+    padding: 40px;
+}
+
+footer p span {
+    color: #e74c3c;
+}
+
+
+
+
+
+
+
+
+/* tablet and mobile phones */
+
+@media (max-width: 768px) {
+    .desktop-menu {
+        display: none;
+    }
+
+    header {
+        height: 0;
+    }
+
+    .hero {
+        height: 0;
+
+    }
+
+    i {
+        z-index: 11111;
+    }
+
+    .hamburger {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 5%;
+        top: 7%;
+        color: white;
+        font-size: 2rem;
+        margin-top: 5rem;
+
+
+    }
+
+    .mobile-menu {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        background-color: rgb(46, 44, 44);
+        inset: 0 0 0;
+        color: black;
+        transform: translatey(0%);
+        transition: transform 1s ease-in-out;
+
+
+    }
+
+    .mobile-menu[data-visible="false"] {
+        transform: translatey(100%);
+    }
+
+    .hamburger i[data-visible="true"] {
+        display: block;
+    }
+
+    .hamburger i[data-visible="false"] {
+        display: none;
+    }
+
+    .mobile-menu .navigation {
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2.5rem;
+        width: 100%;
+        color: black;
+
+
+
+    }
+
+    .mobile-menu .navigation .menus-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-size: 32px;
+
+
+
+    }
+
+    .mobile-menu .navigation .menus-links li a {
+        width: 100%;
+        background-color: white;
+        padding: 10px 30px;
+        border: 1px solid rgb(250, 247, 247);
+        font-size: 1rem;
+
+    }
+
+    .mobile-menu h1 {
+        font-size: 2.3125rem;
+        font-weight: 700;
+        padding: 10px;
+        font-size: 2.50rem;
+        color: white;
+    }
+
+    .navigation h1 span {
+        color: #ed563b;
+    }
+
+    .mobile-menu a {
+        color: black !important;
+
+
+    }
+
+    .menus-links .btn {
+        width: 100%;
+
+    }
+
+    .hero {
+        height: 100vh;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .inside-hero h1 {
+        font-size: 64px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-left: 100px;
+        width: 50%;
+
+
+
+    }
+
+
+    .inside-hero .btn {
+        display: inline-block;
+        font-size: 15px;
+        padding: 12px 20px;
+        text-align: center;
+        font-weight: 400;
+        text-transform: uppercase;
+
+
+
+    }
+
+    .btn:hover {
+        color: red;
+    }
+
+
+    .All-icons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon-one i {
+        margin-top: 18px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .Choose-Program p {
+        font-size: 14px;
+        line-height: 25px;
+        color: #7a7a7a;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .begin-today {
+        margin-top: 100px;
+    }
+
+    .begin-today-contact {
+        padding: 120px 0px;
+    }
+
+    .begin-today-contact h2 {
+        font-size: 26px;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: #fff;
+        letter-spacing: 1px;
+        line-height: 1.2;
+    }
+
+    .begin-today-contact p h4 {
+        font-size: 16px;
+        color: white;
+        margin: 15px 0px 25px 0px;
+
+    }
+
+    .begin-today-contact .btn {
+        display: inline;
+        font-size: 15px;
+        padding: 12px 20px;
+        text-align: center;
+        font-weight: 400;
+        text-transform: uppercase;
+
+
+
+    }
+
+
+
+
+    .Our-Classes h1 {
+        font-size: 800;
+        color: #232d39;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+
+    }
+
+    .Our-Classes p {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 25px;
+        color: #7a7a7a;
+        font-weight: 600;
+    }
+
+    .main-Our-Classes-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 100%;
+
+    }
+
+    .container .main-Our-Classes {
+        width: 100%;
+    }
+
+    .main-Our-Classes-1 {
+        margin-top: 10px;
+
+    }
+
+    .sawir h4 {
+        font-size: 23px;
+        font-weight: 700;
+        color: #232d39;
+        letter-spacing: 0.5px;
+
+    }
+
+    .img-bacground-text h1 {
+        font-size: 28px;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .img-bacground-text p {
+        color: white;
+        font-size: 14px;
+        line-height: 25px;
+        text-align: center;
+
+    }
+
+    .schedule-container {
+        margin-top: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .schedule-container .days {
+        position: relative;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+    }
+
+
+
+    .schedule-table {
+        width: 100%;
+        position: relative;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .box-one {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .Boxses {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-one,
+    .card {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .location-and-form {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+    .location iframe {
+        z-index: 3;
+        height: 500px;
+        width: 100%;
+        padding: 0px;
+        border-width: 0px;
+        margin: 0px;
+        left: 0px;
+        touch-action: pan-x pan-y;
+    }
+
+    .bacground-sawir {
+        padding: 30px;
+
+    }
+
+    .form {
+        padding: 30px;
+        border-radius: 5px;
+
+    }
+
+    footer p {
+        color: #232d39;
+        font-size: 13px;
+        padding: 30px;
+    }
+
+    footer p span {
+        color: #e74c3c;
+    }
+
+
+
+
+
+}
